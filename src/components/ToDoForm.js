@@ -20,6 +20,8 @@ function ToDoForm(props) {
       finished: false
     };
 
+    setInput('');
+
     props.onSubmit(newToDo);
   };
 
@@ -34,6 +36,7 @@ function ToDoForm(props) {
         placeholder='Write a ToDo'
         name='text'
         onChange={changeManagement}
+        value={input}
       />
       <button 
         className='todo-button'

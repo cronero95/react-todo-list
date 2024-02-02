@@ -24,7 +24,7 @@ function ToDoList() {
 
   const finishToDo = (id) => {
     const toDoListUpdated = toDoList.map(toDo => {
-      if (toDo.id == id) {
+      if (toDo.id === id) {
         toDo.finished = !toDo.finished;
       }
       return toDo;
