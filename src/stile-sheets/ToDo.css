@@ -27,6 +27,18 @@
   margin: 0px;
 }
 
+.todo-wrapper:nth-child(3n + 1) {
+  background-color: #1b1b32;
+}
+
+.todo-wrapper:nth-child(3n + 2) {
+  background-color: #2a2a40;
+}
+
+.todo-wrapper:nth-child(3n + 3) {
+  background-color: #3b3b4f;
+}
+
 .todo-wrapper.finished {
   background-color: #5a01a7;
   text-decoration: line-through;

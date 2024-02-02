@@ -1,6 +1,7 @@
-.todo-list-wrapper {
+.list-wrapper {
     display: flex;
     flex-wrap: wrap;
     margin-top: 15px;
     justify-content: center;
+    align-items: flex-start;
 }
