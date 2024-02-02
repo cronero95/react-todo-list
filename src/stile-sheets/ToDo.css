@@ -26,3 +26,8 @@
   height: 25px;
   margin: 0px;
 }
+
+.todo-wrapper.finished {
+  background-color: #5a01a7;
+  text-decoration: line-through;
+}

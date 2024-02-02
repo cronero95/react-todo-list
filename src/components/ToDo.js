@@ -2,9 +2,9 @@ import React from 'react';
 import '../stile-sheets/ToDo.css'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
 
-function ToDo( {text} ) {
+function ToDo( {text, finished} ) {
   return (
-    <div className='todo-wrapper'>
+    <div className={finished ? 'todo-wrapper finished' : 'todo-wrapper'}>
       <div className='todo-text'>
         {text}
       </div>
