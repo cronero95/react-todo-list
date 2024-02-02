@@ -11,6 +11,9 @@ function App() {
           alt='FreeCodeCamp logo'
         />
       </div>
+      <div className='todo-list-wrapper'>
+        <h1>My ToDo List</h1>
+      </div>
     </div>
   );
 }
